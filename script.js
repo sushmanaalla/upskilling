@@ -1,6 +1,10 @@
-let P = 1000;
-let r = 5;
-let n = 2;
-let t = 6;
-let A = P*(1+(r/n))^(n*t);
-console.log(A)
+function evenOrOdd(num){
+    if(num%2 === 0){
+        return `${num} is even number`
+    }
+    else{
+        return `${num} is odd number`
+    }
+}
+console.log(evenOrOdd(5))
+console.log(evenOrOdd(10))
